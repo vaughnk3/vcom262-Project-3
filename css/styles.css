@@ -84,6 +84,17 @@ body {
 
 }
 
+#regularCriterium {
+    z-index:3;
+    font-size:3rem;
+    margin-left: 5%;
+    color:white;
+    font-family: 'Racing Sans One', cursive;
+    filter: drop-shadow(-1rem 1rem 1rem rgb(0, 0, 0));
+    position:absolute;
+    transition:0.5s;
+}
+
 #navSpacer {
     height:200px;
 
@@ -186,3 +197,33 @@ body {
     margin-bottom:-1%;
     padding-top:1%;
 }
+
+/* Dictionary */
+
+.grungus{
+    width: 45%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#dic_buttons
+{
+    list-style-type: none;
+}
+
+.fungus{
+    display: inline;
+    font-size: 3rem;
+}
+
+.center{
+    width: 70%;
+    margin: auto;
+}
+
+#directory_line{
+    margin-top: -3% ;
+    float: left;
+    width: 12%;
+}
+
