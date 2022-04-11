@@ -227,3 +227,17 @@ body {
     width: 12%;
 }
 
+.chongus{
+    width: 80%;
+    margin: auto;
+}
+
+.chongus h1{
+    position: relative;
+    display: inline;
+}
+
+.item_grid {
+    display: grid;
+}
+
