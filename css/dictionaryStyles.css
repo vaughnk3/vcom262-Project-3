@@ -1,0 +1,68 @@
+.grungus{
+    width: 45%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+#dic_buttons
+{
+    list-style-type: none;
+}
+
+.fungus{
+    display: inline;
+    font-size: 3rem;
+}
+
+.center{
+    width: 70%;
+    margin: auto;
+}
+
+#directory_line{
+    margin-top: -3% ;
+    float: left;
+    width: 12%;
+}
+
+.chongus{
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.chongus h1{
+    position: relative;
+    display: inline;
+    z-index: -3;
+}
+
+.item_grid{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    float: right;
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-gap: 1rem;
+}
+
+.af_grid_item{
+    margin: auto;
+}
+
+#dir_af{
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 16rem;
+    margin-bottom: 8rem;
+
+    border: black solid .5rem;
+    border-radius: 3rem;
+
+    text-align: center;
+    padding-top: 16rem;
+}
