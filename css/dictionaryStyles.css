@@ -1,3 +1,59 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #B7B7B7;
+}
+
+.navBar {
+
+    background-color:#006CBB;
+    height:200px;
+    position:sticky;
+    top:0px;
+    width:100%;
+    margin-top:-1%;
+}
+
+#navBarLinks {
+    display:inline;
+
+
+}
+
+#navBarLinks a {
+    text-decoration: none;
+    list-style-type: none;
+ 
+}
+
+#headerLinks {
+    text-align:center;
+    padding-top:3%;
+    margin-left:10%;
+
+}
+
+.navButtons {
+    display:inline;
+    color:white;
+    padding-left:4%;
+    padding-right:4%;
+    font-family: 'Exo', sans-serif;
+    font-size:2rem;
+
+}
+
+#regularCriterium {
+    z-index:3;
+    font-size:3rem;
+    margin-left: 5%;
+    color:white;
+    font-family: 'Racing Sans One', cursive;
+    filter: drop-shadow(-1rem 1rem 1rem rgb(0, 0, 0));
+    position:absolute;
+    transition:0.5s;
+}
+
 .grungus{
     width: 45%;
     margin: auto;
@@ -44,7 +100,7 @@
     width: 75%;
     float: right;
     display: grid;
-    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     grid-gap: 1rem;
 }
 
@@ -65,4 +121,26 @@
 
     text-align: center;
     padding-top: 16rem;
+}
+
+#item_grid_7{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    float: right;
+    display: grid;
+    grid-template-columns: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% ;
+    grid-gap: 1rem;
+}
+
+#item_grid_6{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    float: right;
+    display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
+    grid-gap: 1rem;
 }
