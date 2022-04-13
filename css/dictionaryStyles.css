@@ -123,14 +123,14 @@ body {
     padding-top: 16rem;
 }
 
-#item_grid_7{
+#item_grid_8{
     margin-top: 1%;
     margin-left: 10%;
     margin-right: 10%;
     width: 75%;
     float: right;
     display: grid;
-    grid-template-columns: 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% 14.3% ;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 1rem;
 }
 
@@ -141,6 +141,63 @@ body {
     width: 75%;
     float: right;
     display: grid;
-    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% ;
+    grid-template-columns: 33% 33% 33%;
     grid-gap: 1rem;
+}
+
+.gl_grid_item{
+    margin: auto;
+}
+
+#dir_gl{
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 16rem;
+    margin-bottom: 8rem;
+
+    border: black solid .5rem;
+    border-radius: 3rem;
+
+    text-align: center;
+    padding-top: 16rem;
+}
+
+.ms_grid_item{
+    margin: auto;
+}
+
+#dir_ms{
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 16rem;
+    margin-bottom: 8rem;
+
+    border: black solid .5rem;
+    border-radius: 3rem;
+
+    text-align: center;
+    padding-top: 16rem;
+}
+
+.tz_grid_item{
+    margin: auto;
+}
+
+#dir_tz{
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 16rem;
+    margin-bottom: 8rem;
+
+    border: black solid .5rem;
+    border-radius: 3rem;
+
+    text-align: center;
+    padding-top: 16rem;
 }
