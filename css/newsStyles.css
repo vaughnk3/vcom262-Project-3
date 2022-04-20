@@ -103,8 +103,6 @@ body {
 #rightColumn {
     width:25%;
     height:100%;
-    margin-top:5%;
-    border-radius: 100px 0px 0px 0px;
     float:right;
     background-color: #979797;
     border: 2px solid rgb(65, 65, 65);
@@ -113,7 +111,7 @@ body {
 #leftColumn {
     float:left;
     width:75%;
-
+    border:5px solid blue;
 }
 
 #row::after {
@@ -121,26 +119,16 @@ body {
     display:table;
     clear:both;
 }
-.spacer1{
-    height:100px;
-}
+
 .columnHeadings {
     font-family: 'Jomhuria', cursive;
     color: #0141A0;
-    font-size:8rem;
+    font-size:7rem;
     text-align:center;
-}
-
-#mostViewedHeading {
-    font-family: 'Jomhuria', cursive;
-    color: #0141A0;
-    font-size:8rem;
-    text-align:center;
-    line-height:50%;
 }
 
 #columnContact {
-
+    border: 2px solid black;
     margin-top:80%;
 }
 
@@ -148,7 +136,7 @@ body {
     float:left;
     text-align:center;
 
-    margin-left:15%;
+    margin-left:10%;
 
     margin-top:10%;
     padding-left:0.25rem;
@@ -227,28 +215,6 @@ body {
     
 }
 
-#facebook {
-
-    width:55%;
-    padding:40px;
-}
-
-#instagram {
-
-    width:55%;
-    padding:40px;
-}
-
-#twitter {
-
-    width:55%;
-    padding:40px;
-}
-
-#images {
-    text-align:center;
-}
-
 #footer {
     width:100%;
     background-color:#989898;
@@ -262,52 +228,4 @@ body {
     font-family: 'Exo', sans-serif;
     margin-bottom:-1%;
     padding-top:1%;
-}
-
-#newsletter {
-    display:flex;
-    font-size:2rem;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:-12%;
-    height:50px;
-    width:80%;
-}
-
-#feedback {
-    display:flex;
-    font-size:2rem;
-    
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:-12%;
-    height:500px;
-    width:80%;
-}
-
-.submitButton {
-    background-color: #343434;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-family: 'Exo', sans-serif;
-    border-radius: 30px;
-    display:flex;
-    font-size:2rem;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.viewedLinks {
-    font-family: 'Jomhuria', cursive;
-    text-align: center;
-    font-size:3.5rem;
-    line-height:0;
-}
-
-#spacer2{
-    height:370px;
 }

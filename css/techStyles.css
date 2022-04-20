@@ -1,0 +1,91 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #B7B7B7;
+}
+
+.navBar {
+
+    background-color:#006CBB;
+    height:200px;
+    position:sticky;
+    top:10px;
+    width:100%;
+    margin-top:-1%;
+}
+
+#navBarLinks {
+    display:inline;
+}
+
+#navBarLinks a {
+    text-decoration: none;
+    list-style-type: none;
+ 
+}
+
+#headerLinks {
+    text-align:center;
+    padding-top:3%;
+    margin-left:10%;
+
+}
+
+.navButtons {
+    display:inline;
+    color:white;
+    padding-left:4%;
+    padding-right:4%;
+    font-family: 'Exo', sans-serif;
+    font-size:2rem;
+
+}
+
+.actualNavLinks {
+    text-align:center;
+}
+
+#headerContainer {
+    z-index:0;
+    width:100%;
+}
+
+#headerImg {
+    z-index:1;
+}
+
+#regularCriterium {
+    z-index:3;
+    font-size:3rem;
+    margin-left: 5%;
+    color:white;
+    font-family: 'Racing Sans One', cursive;
+    filter: drop-shadow(-1rem 1rem 1rem rgb(0, 0, 0));
+    position:absolute;
+    transition:0.5s;
+}
+
+#side{
+    position: sticky;
+    width: 15%;
+    margin-left: -2%;
+    margin-top: 5%;
+    float: left;
+    top:0px;
+}
+
+#sidebar{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+#me{
+    margin-top: 5%;
+    width: 85%;
+    float: right;
+    position: relative;
+}
+
+.invis{
+    display: none;
+}
