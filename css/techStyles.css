@@ -86,6 +86,6 @@ body {
     position: relative;
 }
 
-.invis{
+#invis{
     display: none;
 }

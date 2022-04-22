@@ -53,3 +53,69 @@ body {
     position:absolute;
     transition:0.5s;
 }
+
+#main{
+    margin-top: 3%;
+}
+
+#side{
+    float: left;
+    width: 10%;
+    margin-right: 10%;
+}
+
+#filter_Box{
+    margin: auto;
+    width: 80%;
+}
+
+#filter_Title{
+    margin-left: 20%;
+}
+
+#item_Grid{
+    margin-right: 2%;
+    width: 75%;
+    height: 15rem;
+    float: left;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 145% 145% 145% 145% 145%;
+    grid-gap: 1rem;
+}
+
+.grid_Item{
+    width: 100%;
+    background-color: red;
+}
+
+.filter{
+    list-style-type: none;
+}
+
+#invis{
+    display: none;
+}
+
+.picture{
+    color: red;
+}
+
+.picture img{
+    width: 50%;
+}
+
+#pages{
+    width: 20%;
+    margin: auto;
+}
+
+#left{
+    margin-right: 20%;
+    cursor: pointer;
+}
+
+#right{
+    margin-left: 20%;
+    cursor: pointer;
+}
