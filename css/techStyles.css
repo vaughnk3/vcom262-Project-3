@@ -9,7 +9,7 @@ body {
     background-color:#006CBB;
     height:200px;
     position:sticky;
-    top:10px;
+    top:0px;
     width:100%;
     margin-top:-1%;
 }
@@ -88,12 +88,10 @@ body {
 }
 
 #side{
-    position: sticky;
-    width: 15%;
-    margin-left: -2%;
+    position: fixed;
+    width: 10%;
     margin-top: 5%;
     float: left;
-    top:0px;
 }
 
 #sidebar{
@@ -103,9 +101,9 @@ body {
 
 #me{
     margin-top: 5%;
-    width: 85%;
-    float: right;
-    position: relative;
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 80%;
 }
 
 #invis{
