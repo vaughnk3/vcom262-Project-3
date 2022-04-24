@@ -16,6 +16,8 @@ body {
 
 #navBarLinks {
     display:inline;
+
+
 }
 
 #navBarLinks a {
@@ -41,21 +43,6 @@ body {
 
 }
 
-.actualNavLinks {
-    text-align:center;
-}
-
-
-
-#headerContainer {
-    z-index:0;
-    width:100%;
-}
-
-#headerImg {
-    z-index:1;
-}
-
 #regularCriterium {
     z-index:3;
     font-size:3rem;
@@ -67,25 +54,39 @@ body {
     transition:0.5s;
 }
 
-#side{
-    position: fixed;
-    width: 10%;
+#main{
+    margin-top: 3%;
+}
+
+#form_Box{
+    background-color: red;
+    width: 30%;
+    float: right;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#form{
+    width: 50%;
+    margin: auto;
     margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#item_List{
+    width: 40%;
+    background-color: #979797;
     float: left;
-}
-
-#sidebar{
-    list-style-type: none;
-    cursor: pointer;
-}
-
-#me{
-    margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 5%;
     margin-right: 5%;
-    width: 80%;
+    display: grid;
 }
 
-#invis{
-    display: none;
+#items{
+    display: flex;
+    align-items: stretch;
+}
+
+.remove{
+    cursor: pointer;
 }

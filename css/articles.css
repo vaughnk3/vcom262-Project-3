@@ -68,27 +68,6 @@ body {
     height:50px;
 }
 
-#cartplace{
-    width: 4%;
-}
-
-#cartplace img{
-    position: absolute;
-    z-index: 1;
-    width: 6rem
-}
-
-#carts{
-    position: absolute;
-    left:4%;
-    z-index: 3;
-    background-color: red;
-    width: 40px;
-    height: 30px;
-    padding-top: 10px;
-    text-align: center;
-    border-radius: 100%;
-}
 
 #headerContainer {
     z-index:0;

@@ -54,27 +54,6 @@ body {
     transition:0.5s;
 }
 
-#cartplace{
-    width: 4%;
-}
-
-#cartplace img{
-    position: absolute;
-    z-index: 1;
-    width: 6rem
-}
-
-#carts{
-    position: absolute;
-    left:4%;
-    z-index: 3;
-    background-color: red;
-    width: 40px;
-    height: 30px;
-    padding-top: 10px;
-    text-align: center;
-    border-radius: 100%;
-}
 
 #main{
     margin-top: 3%;
@@ -84,7 +63,6 @@ body {
     position: fixed;
     float: left;
     width: 10%;
-    margin-right: 10%;
 }
 
 #filter_Box{
@@ -100,10 +78,10 @@ body {
     margin-right: 10%;
     margin-left: 10%;
     width: 80%;
-    height: 15rem;
+    height: 80rem;
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 145% 145% 145% 145% 145%;
+    grid-template-rows: 30% 30% 30% 30% 30%;
     grid-gap: 1rem;
 }
 

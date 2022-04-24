@@ -363,11 +363,20 @@ else if(women.checked)
 }
 });
 
-var send_img = new Array();
-var send_name = new Array();
-var send_cost = new Array();
-
-var cart_place = -1;
+if (!sessionStorage.getItem("img"))
+{
+    var send_img = new Array();
+    var send_name = new Array();
+    var send_cost = new Array();
+    var cart_place = -1;
+}
+else
+{
+    var send_img = JSON.parse(sessionStorage.getItem("img"))
+    var send_name = JSON.parse(sessionStorage.getItem("nam"))
+    var send_cost = JSON.parse(sessionStorage.getItem("cos"))
+    var cart_place = parseInt(sessionStorage.getItem("place"))
+}
 
 
 // adding things to the cart
@@ -378,7 +387,6 @@ shop_Button.forEach(cart => {
         cart.innerHTML = "Added to cart!";
         var shop_Check = shop_ButtonARR.indexOf(cart);
         var checksum = (page-1) * 20
-        console.log("shop_Check = " + shop_Check + "\n" + "checksum = " + checksum + "\n")
 
         for(i = 0; i <= item.length-1; i++)
         {
@@ -390,8 +398,15 @@ shop_Button.forEach(cart => {
                 send_cost[cart_place] = item[i].cost.toString();
             }
         }
+        document.getElementById("carts").innerHTML = send_img.length;
+        if (document.getElementById("carts").style.display == "none")
+        {
+            document.getElementById("carts").style.display = "block"
+        }
+
         sessionStorage.setItem("img",JSON.stringify(send_img));
         sessionStorage.setItem("nam",JSON.stringify(send_name));
         sessionStorage.setItem("cos",JSON.stringify(send_cost));
+        sessionStorage.setItem("place",cart_place);
     });
 })
