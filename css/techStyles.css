@@ -77,13 +77,30 @@ body {
 #sidebar{
     list-style-type: none;
     cursor: pointer;
+    padding: 2.5rem;
+    margin: auto;
+    width: 80%;
+    border: black solid 1px;
+    border-radius: 3rem;   
+    color:white;
+    
+    background-color: #0141A0;
+    font-size: 1.25rem;
+    margin-left: -2rem;
 }
 
 #me{
+    position: relative;
     margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 5%;
-    width: 80%;
+    margin-left: 14%;
+    background-color: #989898;
+    width:80%;
+    padding: 50px;
+    border-radius: 50px 50px 50px 50px;
+    z-index: -3;
+    filter: drop-shadow(0.75rem 0.75rem 1rem rgb(59, 59, 59));
+    font-size:2rem;
+    font-family: 'Exo', sans-serif;
 }
 
 #invis{

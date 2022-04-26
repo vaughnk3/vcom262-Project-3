@@ -59,15 +59,25 @@ body {
 }
 
 #form_Box{
-    background-color: red;
-    width: 30%;
+    border: black solid 1px;
+    border-radius: 3rem;   
+    color:white;
+    
+    background-color: #0141A0;
+    font-family: 'Exo', sans-serif;
+    font-size:2rem;
+    width: 35%;
     float: right;
-    margin-left: 10%;
     margin-right: 10%;
 }
 
+#item_List{
+    overflow: scroll;
+    height: 43rem;
+}
+
 #form{
-    width: 50%;
+    width: 75%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -80,13 +90,132 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
+    grid-template-rows: min-content;
 }
 
-#items{
+.item{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     display: flex;
     align-items: stretch;
+    border: black solid 3px;
+}
+
+.image{
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+.image img{
+    width: 100%;
+}
+
+.name{
+    width: 22rem;
+    margin-right: 1rem;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:1.5rem;
+    padding-top: 2.5rem;
+}
+
+.cost{
+    width: 5rem;
+    margin-right: 1rem;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:1.5rem;
+    padding-top: 2.5rem;
 }
 
 .remove{
+    width: 5rem;
+    font-family: 'Exo', sans-serif;
+    color:blue;
+    font-size:1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    text-align: center;
     cursor: pointer;
+}
+
+#cost_box{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 25px;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:2.5rem;
+}
+
+#money{
+    width: 10%;
+}
+
+#total{
+ width: 75%;
+}
+
+#fname{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+#lname{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#cardnum{
+    width: 85%;
+}
+
+#Snum{
+    width: 10%;
+}
+
+#Address{
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+#state{
+    width: 25%;
+}
+
+#Zip{
+    width: 25%;
+}
+
+#pricecheck{
+font-family: 'Exo', sans-serif;
+color:white;
+font-size:2.5rem;
+width: 100%;
+}
+
+#submitted{
+    width: 100%;
+}
+
+#center{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#thanks{
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:2.5rem;
+    border: black solid 1px;
+    border-radius: 3rem;   
+    color:white;
+
+    text-align: center;
+    
+    background-color: #979797;
 }

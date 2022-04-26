@@ -37,7 +37,7 @@ function newitem(img, nom, cos) {
     //making the cost
     var cost = document.createElement("span");
     cost.classList.add("cost");
-    cost.innerHTML = cos;
+    cost.innerHTML = "$" + cos;
     tag.appendChild(cost);
     //making the remove button
     var remove = document.createElement("span");
@@ -108,4 +108,5 @@ function funny() {
         sum += parseFloat(costs[i]);
     }
     document.getElementById("money").innerHTML = sum.toFixed(2);
+    document.getElementById("totalC").innerHTML = sum.toFixed(2);
 }

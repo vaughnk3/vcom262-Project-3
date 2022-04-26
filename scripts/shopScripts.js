@@ -48,6 +48,10 @@ left.addEventListener('click', function () {
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
     else if (page == 3) {
@@ -57,6 +61,10 @@ left.addEventListener('click', function () {
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
     else{
@@ -66,6 +74,10 @@ left.addEventListener('click', function () {
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
 })
@@ -91,6 +103,7 @@ right.addEventListener('click', function (){
             {
                 active.item(i%20).childNodes.item(3).style.display = "none";
             }
+
         }
     }
     else if (page == 2 && item.length > 40)
@@ -112,6 +125,7 @@ right.addEventListener('click', function (){
             {
                 active.item(i%20).childNodes.item(3).style.display = "none";
             }
+
         }
     }
     else if (page == 3 && item.length > 60)
@@ -133,6 +147,7 @@ right.addEventListener('click', function (){
             {
                 active.item(i%20).childNodes.item(3).style.display = "none";
             }
+
         }
     }
     else{
@@ -167,6 +182,10 @@ if(all.checked){
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
 
     }
@@ -189,6 +208,10 @@ if(all.checked){
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
     else if (accessory.checked)
@@ -210,6 +233,10 @@ if(all.checked){
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
 }
@@ -241,6 +268,10 @@ else if(men.checked)
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
 
     }
@@ -263,6 +294,10 @@ else if(men.checked)
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
     else if (accessory.checked)
@@ -284,6 +319,10 @@ else if(men.checked)
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
 }
@@ -315,6 +354,10 @@ else if(women.checked)
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
 
     }
@@ -337,6 +380,10 @@ else if(women.checked)
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
     else if (accessory.checked)
@@ -358,6 +405,10 @@ else if(women.checked)
             active.item(i%20).childNodes.item(0).innerHTML = item[i].img;
             active.item(i%20).childNodes.item(1).innerHTML = item[i].nom;
             active.item(i%20).childNodes.item(2).innerHTML = item[i].cost;
+            if(!item[i].nom == "")
+            {
+                active.item(i%20).childNodes.item(3).style.display = "inline";
+            }
         }
     }
 }
