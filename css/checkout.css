@@ -1,0 +1,566 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #B7B7B7;
+}
+
+.navBar {
+
+    background-color:#006CBB;
+    height:215px;
+    position:sticky;
+    top:0px;
+    width:100%;
+    margin-top:-1%;
+}
+
+#navBarLinks {
+    display:inline;
+
+
+}
+
+#navBarLinks a {
+    text-decoration: none;
+    list-style-type: none;
+ 
+}
+
+#headerLinks {
+    text-align:center;
+    padding-top:3%;
+
+
+}
+
+.navButtons {
+    display:inline;
+    color:white;
+    padding-left:4%;
+    padding-right:4%;
+    font-family: 'Exo', sans-serif;
+    font-size:2rem;
+
+}
+
+#regularCriterium {
+    z-index:3;
+    font-size:3rem;
+    margin-left: 5%;
+    color:white;
+    font-family: 'Racing Sans One', cursive;
+    filter: drop-shadow(-1rem 1rem 1rem rgb(0, 0, 0));
+    position:absolute;
+    transition:0.5s;
+}
+
+#main{
+    margin-top: 3%;
+}
+
+#form_Box{
+    border: black solid 1px;
+    border-radius: 3rem;   
+    color:white;
+    
+    background-color: #0141A0;
+    font-family: 'Exo', sans-serif;
+    font-size:2rem;
+    width: 35%;
+    float: right;
+    margin-right: 10%;
+}
+
+#form{
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#item_List{
+    overflow: scroll;
+    height: 43rem;
+}
+
+#item_List{
+    width: 40%;
+    background-color: #979797;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-rows: min-content;
+}
+
+.item{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: stretch;
+    border: black solid 3px;
+}
+
+.image{
+    width: 6rem;
+    margin-right: 1rem;
+}
+
+.image img{
+    width: 100%;
+}
+
+.name{
+    width: 22rem;
+    margin-right: 1rem;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:1.5rem;
+    padding-top: 2.5rem;
+}
+
+.cost{
+    width: 5rem;
+    margin-right: 1rem;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:1.5rem;
+    padding-top: 2.5rem;
+}
+
+.remove{
+    width: 5rem;
+    font-family: 'Exo', sans-serif;
+    color:blue;
+    font-size:1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+#cost_box{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 25px;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:2.5rem;
+}
+
+#money{
+    width: 10%;
+}
+
+#total{
+ width: 75%;
+}
+
+#fname{
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+#lname{
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+#cardnum{
+    width: 85%;
+}
+
+#Snum{
+    width: 10%;
+}
+
+#Address{
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+#state{
+    width: 25%;
+}
+
+#Zip{
+    width: 25%;
+}
+
+#pricecheck{
+font-family: 'Exo', sans-serif;
+color:white;
+font-size:2.5rem;
+width: 100%;
+}
+
+#submitted{
+    width: 100%;
+}
+
+#center{
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#thanks{
+    width: 100%;
+    font-family: 'Exo', sans-serif;
+    color:white;
+    font-size:2.5rem;
+    border: black solid 1px;
+    border-radius: 3rem;   
+    color:white;
+
+    text-align: center;
+    
+    background-color: #979797;
+}
+
+/* windows */
+@media only screen and (max-width: 1949px) {
+
+    #headerLinks {
+        text-align:center;
+        padding-top:8%;
+    }
+    
+    #regularCriterium {
+        z-index:3;
+        font-size:8.5rem;
+        margin-left: 5%;
+        margin-top:-1%;
+        color:white;
+        font-family: 'Racing Sans One', cursive;
+        filter: drop-shadow(-1rem 1rem 1rem rgb(0, 0, 0));
+        position:absolute;
+        transition:0.5s;
+    }
+
+}
+
+
+/* tablet */
+@media only screen and (max-width: 1255px) {
+
+
+    #regularCriterium {
+        font-size: 5rem;
+        margin-left:2%;
+        margin-top:0%;
+
+    }
+
+    .navBar {
+        height:170px;
+
+    }
+
+    #headerLinks {
+        font-size:1rem;
+        padding-top:13%;
+
+    }
+
+    .navButtons {
+        font-size:2rem;
+        padding-left:2%;
+        padding-right:2%;
+        padding-top:5%;
+
+        width:100%;
+    }
+
+    #item_List{
+        width: 80%;
+        background-color: #979797;
+
+        margin-left: 12%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-rows: min-content;
+        border-bottom: 2px solid black;
+    }
+    
+    .item{
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+        display: flex;
+        align-items: stretch;
+        border: black solid 3px;
+    }
+    
+    .image{
+        width: 6rem;
+        margin-right: 1rem;
+    }
+    
+    .image img{
+        width: 100%;
+    }
+    
+    .name{
+        width: 15rem;
+        margin-right: 1rem;
+        font-family: 'Exo', sans-serif;
+        color:white;
+        font-size:1.5rem;
+        padding-top: 2.5rem;
+    }
+    
+    .cost{
+        width: 5rem;
+        margin-right: 1rem;
+        font-family: 'Exo', sans-serif;
+        color:white;
+        font-size:1.5rem;
+        padding-top: 2.5rem;
+    }
+    
+    .remove{
+        width: 5rem;
+        font-family: 'Exo', sans-serif;
+        color:blue;
+        font-size:1.5rem;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #cost_box{
+        display: flex;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 25px;
+        font-family: 'Exo', sans-serif;
+        color:white;
+        font-size:2.5rem;
+    }
+
+
+    #form_Box{
+        border: black solid 1px;
+        border-radius: 3rem;   
+        color:white;
+        
+        background-color: #0141A0;
+        font-family: 'Exo', sans-serif;
+        font-size:2rem;
+        width: 80%;
+        margin-top:5%;
+
+    }
+    
+    #form{
+        width: 75%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #fname{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    
+    #lname{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+    #cardnum{
+        width: 85%;
+    }
+    
+    #Snum{
+        width: 10%;
+    }
+    
+    #Address{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    
+    #state{
+        width: 25%;
+    }
+    
+    #Zip{
+        width: 25%;
+    }
+
+}
+
+
+
+
+/* phone */ 
+@media only screen and (max-width: 700px) {
+    body {
+        background-color:green;
+    }
+
+
+    #regularCriterium {
+        font-size: 3.25rem;
+
+    }
+
+    .navBar {
+        height:110px;
+
+    }
+
+    #headerLinks {
+        font-size:1rem;
+        padding-top:20%;
+        margin-left:-12%;
+
+    }
+
+    .navButtons {
+        font-size:1rem;
+
+        padding-top:5%;
+
+        width:100%;
+    }
+
+    
+    #item_List{
+        width: 95%;
+        background-color: #979797;
+
+        margin-left: 3%;
+        margin-right: 5%;
+        display: grid;
+        grid-template-rows: min-content;
+        border-bottom: 2px solid black;
+    }
+    
+    #total{
+        width: 75%;
+        font-size: 2rem;
+       }
+
+       #money{
+        width: 10%;
+        font-size: 2.5rem;
+        margin-right:35%;
+    }
+       
+    .item{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        align-items: stretch;
+        border: black solid 3px;
+    }
+    
+    .image{
+        width: 6rem;
+        margin-right: 1rem;
+    }
+    
+    .image img{
+        width: 80%;
+    }
+    
+    .name{
+        width: 7rem;
+
+
+        font-family: 'Exo', sans-serif;
+        color:white;
+        font-size:0.9rem;
+        padding-top: 2rem;
+    }
+    
+    .cost{
+        width: 5rem;
+ 
+        font-family: 'Exo', sans-serif;
+        color:white;
+        font-size:1rem;
+        padding-top: 2.5rem;
+    }
+    
+    .remove{
+        width: 5rem;
+        font-family: 'Exo', sans-serif;
+        color:blue;
+        font-size:0.75rem;
+
+        padding-top: 1rem;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    #cost_box{
+        display: flex;
+        margin-top: 25px;
+        margin-left: 10px;
+        margin-right: 25px;
+        font-family: 'Exo', sans-serif;
+        color:white;
+        font-size:2.5rem;
+    }
+
+
+    #form_Box{
+        border: black solid 1px;
+        border-radius: 3rem;   
+        color:white;
+        
+        background-color: #0141A0;
+        font-family: 'Exo', sans-serif;
+        font-size:2rem;
+        width: 80%;
+        margin-top:5%;
+
+    }
+    
+    #form{
+        width: 85%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #fname{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    
+    #lname{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+    #cardnum{
+        width: 85%;
+    }
+    
+    #Snum{
+        width: 10%;
+    }
+    
+    #Address{
+        width: 98%;
+        margin-bottom: 10px;
+    }
+    
+    #state{
+        width: 25%;
+    }
+    
+    #Zip{
+        width: 25%;
+    }
+}
